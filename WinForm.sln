@@ -11,11 +11,17 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04加法计算器", "04加�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06pictureBox", "06pictureBox\06pictureBox.csproj", "{DEC3233F-CC22-4479-8EF5-5A621B7EE794}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07.习题", "07.习题\07.习题.csproj", "{462694DB-6235-4DEB-ACAE-E60890DC8ACF}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03计算矩形的面积", "03计算矩形的面积\03计算矩形的面积.csproj", "{3145603C-D153-4DA0-A2A9-8E9FC4BB1521}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05linkLabel", "05linkLabel\05linkLabel.csproj", "{A7E390D2-BB55-4FEE-805F-F3F2002F62B2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08身份证检验算法", "08身份证检验算法\08身份证检验算法.csproj", "{240366C1-0ADA-492A-947C-64BB79119E23}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07习题", "07习题\07习题.csproj", "{462694DB-6235-4DEB-ACAE-E60890DC8ACF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11美女时钟", "11美女时钟\11美女时钟.csproj", "{95EB4F57-197D-4D7D-882B-E3B3E08B7FDB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "12其他控件", "12其他控件\12其他控件.csproj", "{2819E334-89BC-45D0-BE45-F858AF68BC5A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,10 +45,6 @@ Global
 		{DEC3233F-CC22-4479-8EF5-5A621B7EE794}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DEC3233F-CC22-4479-8EF5-5A621B7EE794}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DEC3233F-CC22-4479-8EF5-5A621B7EE794}.Release|Any CPU.Build.0 = Release|Any CPU
-		{462694DB-6235-4DEB-ACAE-E60890DC8ACF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{462694DB-6235-4DEB-ACAE-E60890DC8ACF}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{462694DB-6235-4DEB-ACAE-E60890DC8ACF}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{462694DB-6235-4DEB-ACAE-E60890DC8ACF}.Release|Any CPU.Build.0 = Release|Any CPU
 		{3145603C-D153-4DA0-A2A9-8E9FC4BB1521}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{3145603C-D153-4DA0-A2A9-8E9FC4BB1521}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3145603C-D153-4DA0-A2A9-8E9FC4BB1521}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -51,6 +53,22 @@ Global
 		{A7E390D2-BB55-4FEE-805F-F3F2002F62B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A7E390D2-BB55-4FEE-805F-F3F2002F62B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A7E390D2-BB55-4FEE-805F-F3F2002F62B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{240366C1-0ADA-492A-947C-64BB79119E23}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{240366C1-0ADA-492A-947C-64BB79119E23}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{240366C1-0ADA-492A-947C-64BB79119E23}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{240366C1-0ADA-492A-947C-64BB79119E23}.Release|Any CPU.Build.0 = Release|Any CPU
+		{462694DB-6235-4DEB-ACAE-E60890DC8ACF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{462694DB-6235-4DEB-ACAE-E60890DC8ACF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{462694DB-6235-4DEB-ACAE-E60890DC8ACF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{462694DB-6235-4DEB-ACAE-E60890DC8ACF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{95EB4F57-197D-4D7D-882B-E3B3E08B7FDB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95EB4F57-197D-4D7D-882B-E3B3E08B7FDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95EB4F57-197D-4D7D-882B-E3B3E08B7FDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95EB4F57-197D-4D7D-882B-E3B3E08B7FDB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2819E334-89BC-45D0-BE45-F858AF68BC5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2819E334-89BC-45D0-BE45-F858AF68BC5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2819E334-89BC-45D0-BE45-F858AF68BC5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2819E334-89BC-45D0-BE45-F858AF68BC5A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

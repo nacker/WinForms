@@ -56,10 +56,18 @@ namespace _07.习题
 
         private void textStart_KeyPress(object sender, KeyPressEventArgs e)
         {
+            TextBox tb = sender as TextBox;
+
             if (e.KeyChar < '0' || e.KeyChar > '9')
             {
                 // 说明用户输入的不是一个数字字符
                 e.Handled = true; // 阻止用户的输入
+            }
+
+            if (tb.SelectionStart == 0 && e.KeyChar == '0')
+            {
+                // 如果用户光标在第一个位置（最前面），并且输入了一个0，我们就阻止
+                e.Handled = true;
             }
 
             if (e.KeyChar == 8)
